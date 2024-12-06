@@ -9,7 +9,6 @@ import (
 
 var secretKey = []byte("secret")
 
-// JWTMiddleware checks the token in the Authorization header
 func JWTMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		authHeader := r.Header.Get("Authorization")
