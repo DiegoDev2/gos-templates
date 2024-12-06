@@ -1,4 +1,4 @@
-module github.com/DiegoDev2/gos-templates
+module github.com/DiegoDev2/gos-templates/api
 
 go 1.23.3
 

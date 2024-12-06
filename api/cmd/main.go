@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/DiegoDev2/gos-templates/api/handler"
-	"github.com/DiegoDev2/gos-templates/api/middleware"
+	"github.com/DiegoDev2/gos-templates/api/api/handler"
+	"github.com/DiegoDev2/gos-templates/api/api/middleware"
 	"github.com/gorilla/mux"
 )
 
